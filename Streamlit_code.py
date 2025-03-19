@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import streamlit as st
 import joblib 
 import numpy as np
@@ -32,10 +26,4 @@ def make_prediction(features):
         
 if _name_ == '_main_':
         main()
-
-
-# In[ ]:
-
-
-
 
